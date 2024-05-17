@@ -6,5 +6,5 @@ let passport = {
 let clone = Object.assign({}, passport);
 clone.name = "Ivan";
 
-console.log(passport);
-console.log(clone);
+console.log(passport.name);
+console.log(clone.name);
